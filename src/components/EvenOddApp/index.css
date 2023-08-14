@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 40vw;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  border-radius: 20px;
+}
+h1 {
+  font-size: 50px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-style: italic;
+  color: #0f172a;
+}
+p {
+  color: #334155;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-style: italic;
+}
+button {
+  color: #1e293b;
+  width: 150px;
+  height: 6vh;
+  border-radius: 10px;
+  font-size: 18px;
+  border: solid 1px white;
+}
